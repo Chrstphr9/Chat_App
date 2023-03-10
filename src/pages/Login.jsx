@@ -8,7 +8,7 @@ const Login = () => {
             <span className="logo">Lama Chat</span>
             <span className="title">Login</span>
             <form>
-                <input type="email" placeholder='email' />
+             
                 <input type="email" placeholder='email'/>
                 <input type="password" placeholder='password'/>
                
