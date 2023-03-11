@@ -5,14 +5,14 @@ const Message = () => {
     <div className="message">
       <div className="messageInfo">
         <img
-          src="https://www.pexels.com/photo/young-woman-in-casual-clothing-14711714/"
+          src="https://images.pexels.com/photos/6279415/pexels-photo-6279415.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
           alt=""
         />
         <span>Just Now</span>
       </div>
       <div className="messageContent">
         <p>Hello</p>
-        <img src="https://www.pexels.com/photo/young-woman-in-casual-clothing-14711714/" alt="" />
+        <img src="https://images.pexels.com/photos/6279415/pexels-photo-6279415.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" />
       </div>
     </div>
   );
