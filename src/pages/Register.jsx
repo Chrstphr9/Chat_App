@@ -1,12 +1,13 @@
 import React from 'react'
+import { useState } from 'react';
 import Add from "../images/addAvatar.png"
 import {  createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase"
 
 const Register = () => {
-
+  const [err, setErr] = useState(false)
   const handleSubmit = async (e) => {
-    const [err, setErr] = useState(false)
+    
     e.preventDefault()
     const displayName = e.target[0].value;
     const email = e.target[1].value;
