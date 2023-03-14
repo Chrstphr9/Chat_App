@@ -8,6 +8,7 @@ import {
   uploadBytesResumable,
   getDownloadURL,
 } from "firebase/storage";
+import { doc, setDoc } from "firebase/firestore"; 
 
 const Register = () => {
   const [err, setErr] = useState(false);
@@ -39,6 +40,9 @@ const Register = () => {
           });
         }
       );
+
+        await setDoc(doc)
+
     } catch (err) {
       setErr(true);
     }
